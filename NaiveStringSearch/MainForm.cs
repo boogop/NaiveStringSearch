@@ -91,7 +91,7 @@ namespace NaiveStringSearch
             int chunksize = 20;
             int iIncrement = chunksize - 10;
 
-            this.Text = "Word Locator [" + name + "]";
+            this.Text = "Naive String Search [" + name + "]";
 
             FileInfo f = new FileInfo(name);
 
